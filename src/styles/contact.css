@@ -1,0 +1,35 @@
+.contacts {
+    min-height: 75vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 36px;
+    text-align: center;
+}
+
+.small-par{
+    margin-top: 22px;
+    font-size: 22px;
+}
+
+.contacts-item div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+    gap: 20px;
+}
+
+/* .email img {
+    margin-bottom: -12px;
+} */
+
+.footer {
+    background-color:rgb(23, 23, 35) ;
+    color: white;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    font-size: 18px;
+}

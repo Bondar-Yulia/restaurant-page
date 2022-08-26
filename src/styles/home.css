@@ -1,0 +1,63 @@
+.homeContainer {
+    padding: 0 4vw 0 3vw;
+    min-height: 85vh;
+    background-color: rgb(23, 23, 35);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.info {
+    flex: 1 1 312px;
+    padding: 15px 5px 0 0;
+    max-width: 500px;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 30px;
+}
+
+.bigPizza{
+    height: 410px;
+    width: 410px;
+    overflow: hidden;
+}
+
+.bigPizza img {
+    width: 400px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.bigPizza img:hover{
+  animation: spin 5s linear 0s infinite;
+}
+
+.cart img{
+    padding-top: 16px;
+    background-color:rgb(23, 23, 35) ;
+    border: none;
+}
+
+.cart img:hover{
+    opacity: 0.6;
+    transform: scale(0.9);
+}
+
+.info div{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.info .first-par {
+    font-size: 24px;
+}
+

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Questrial&display=swap');
+
+html, body {
+    font-family: 'Cantora One', sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .name{
+    font-size: 36px;
+}
+
+.header{
+    background-color: rgb(23, 23, 35);
+    color: white;
+    min-height: 15vh;
+    padding: 0 4vw 0 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 98px;
+    font-size: 28px;
+}
+
+.left{ 
+    width: 310px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+}
+
+.header button{
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header button:hover{
+    text-shadow: 2px 1px 8px #ed5c98;
+    position: relative;
+    bottom: 1px;
+    left: 1px;
+}
+
+.logo{
+    overflow: hidden;
+}
+
+.logo img{
+    height: 67px;
+    width: 67px;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.logo img:hover{
+    animation: spin 2s linear 0s infinite;
+}
